@@ -31,7 +31,7 @@ $(document).ready(function () {
     var requestUrl = apiRoot;
 
     $.ajax({
-      url: 'http://localhost:8080/v1/tasks/',
+      url: apiRoot,
       method: 'GET',
       success: handleDatatableRender
     });
